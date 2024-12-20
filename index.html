@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sierra Janson</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"><!--Font-->
+
+  <script defer src="script.js"></script>
+</head>
+
+<body class="w3-black" style="font-family:'Moderustic'" >
+
+  <!-- Navbar (sit on top) 
+  https://www.w3schools.com/w3css/defaulT.asp classes reference
+  -->
+
+  
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+      <div class="w3-right w3-hide-small">
+        <a href="#projects" class="w3-bar-item w3-button">Projects</a> <!-- and skills -->
+        <a href="#experience" class="w3-bar-item w3-button">Experience</a>
+        <a href="#skills"class="w3-bar-item w3-button">Skills</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div id="text_info" id="home">
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1564px;" id="home"
+      style="background-color: black;">
+      <img  class="w3-image"src="images/Nebula.jpg" filter="brightness(100%)" alt="Coffee Shop" width="1500" height="800">
+      <div class="backstar"></div>
+      <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white" id="hyperspace-text"> Sierra Janson • CS Undergrad </h1>
+        <p class="w3-large w3-text-white" id="hyperspace-text"> machine learning, software development, network security</p>
+        <a href="#contact"><button class="w3-margin-left w3-button w3-white w3-round-xlarge" >Contact me!</button></a>
+      </div>
+    </header>
+  </div>
+
+  <div id="text_info_small" class="w3-black w3-container w3-padding-32" id="small_header">
+    <div class="w3-content" style="max-width:1200px">
+      <img  class="w3-image"src="images/Nebula.jpg" filter="brightness(100%)" alt="Coffee Shop" width="1500" height="800">
+      <div class="backstar"></div>
+      <div class="w3-display-middle w3-center">
+      <h1 class="w3-xlarge w3-text-white" id="hyperspace-text"> Sierra Janson • CS Undergrad </h1>
+      <p class="w3-large w3-text-white" id="hyperspace-text"> deep learning, software development, network security</p>
+      <a href="#contact"><button class="w3-button w3-white w3-round-small">Contact me!</button></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1200px">
+
+    <!-- Projects Section -->
+    <div class="w3-container w3-padding-32 hidden" id="projects">
+      <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+    </div>
+
+    
+    <div class="w3-row-padding hidden">
+
+      
+      <div class="w3-col l5 m5 w3-margin-bottom">
+        <div id="one">
+          <a href="https://github.com/sierrajanson/pool_website"
+            target="_blank"><img src="images/form.png" alt="John" style="width:100%"></a>
+        </div>
+
+        
+        <h3>Pool Quote Website</h3>
+        <p>Developed a website for a client looking to provide pool quotes, implementing a form-driven system to fetch and display relevant quotes from a custom database based on customer input.</p>
+      </div>
+      
+      <div class="w3-col l2 m2 w3-margin-bottom"></div>
+
+      <div class="w3-col l5 m5 w3-margin-bottom">
+        <div id="two">
+          <a href="https://github.com/sierrajanson/Comp_Astro_Lab-Rubin" target="_blank"><img src="images/segmap.png"
+              alt="John" style="width:100%"></a>
+        </div>
+
+        <h3> Astronomical Galaxy Analysis Pipeline </h3>
+        <p>Developed a modular pipeline to query and manipulate astronomical images, to detect 
+        sources, calculate Sérsic profiles, and write the results to a FITS table using Python, BASH, and Linux OS.</p>   
+      </div>
+      
+
+      
+    </div>
+    
+    <div class="w3-row-padding w3-padding-16 hidden">
+
+      
+      <div class="w3-col l5 m5 w3-margin-bottom">
+        
+        <div id="three">
+          <a href="https://github.com/sierrajanson/yolov4tiny-Distance-Tracker" target="_blank"><img src="images/distnacephoto.png"
+              alt="John" style="width:100%"></a>
+        </div>
+
+        
+        <h3>Object Identifier and Depth Calculator</h3>
+        <p>Identifies everyday objects and calculates their distance in inches from the camera using Python, YOLOv4-tiny, and cv2 </p>
+      </div>
+      
+      <div class="w3-col l2 m2 w3-margin-bottom"></div>
+      
+      <div class="w3-col l5 m5 w3-margin-bottom">
+        <div id="four">
+          <a href="https://sierrajanson.github.io/ACMHackathon/" target="_blank"><img src="images/borgor.png"
+              alt="John" style="width:100%"></a>
+        </div>
+        <h3>Cal Craft</h3>
+        <p>Upload an image or select from a menu to calculate the units of fast-acting insulin that you need to injest. Uses COCO, React.js, and Firebase. </p>
+      </div>
+
+
+      
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-white w3-container w3-padding-32" id="experience">
+    <div class="w3-content" style="max-width:1400px">
+      <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-large">Experiences</h3>
+      <div class="w3-row">
+        <div class="w3-col s3 w3-white w3-center w3-card">
+          <img class="w3-image" src="images/IMG-9046.jpg">
+          <p>100+ hours of Chromebook Repair</p>
+          <p>August 2021 - June 2023</p>
+        </div>
+        <div class="w3-col s3 w3-white w3-center w3-card">
+          <img class="w3-image" src="images/app.png">
+          <p>App Developer for Blueprint</p>
+          <p>February 2024 - Present</p>
+        </div>
+        <div class="w3-col s3 w3-white w3-center w3-card">
+          <img class="w3-image" src="images/graphs.png">
+          <p>Human Mathematics Research Assistant</p>
+          <p>March 2024 - Present</p>
+        </div>
+        <div class="w3-col s3 w3-white w3-center w3-card">
+          <img class="w3-image" src="images/PSF.png">
+          <p>Computational Astrophysics Research Assistant</p>
+          <p>April 2024 - Present</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="w3-black w3-container w3-padding-32" id="education">
+    <div class="w3-content" style="max-width:1200px">
+      <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-large">Education</h3>
+      <section id="timeline">
+        <div class="backstar"></div>
+        <ul>
+          <li>
+            <i class="fa-brands"></i>
+            <div class="box">
+              <h3 class="title">
+                <span class="year">2023-2026</span>UC Santa Cruz, Computer Science B.S.
+              </h3>
+              <p> Data Structures and Algorithms <br> Computer Systems and Multithreaded C <br> Statistics and Probability for Engineers <br> Parallel Programming <br> Computer Systems and C Programming <br> Computer Architecture and Assembly Language <br> Programming Abstractions in Python <br> Linear Algebra <br> Calculus for Engineers<br>Discrete Mathematics</p>
+              <!-- <p>
+                Completed: CSE 30 Programming Abstractions in Python, CSE 12 Computer Architecture and Assembly Language</p>
+                <p id="ucsc">In Progress: CSE 16 Discrete Mathemathetics, MATH 19B Calculus for Engineers, CSE 13S Computer Systems and C Programming, CSE 40 Machine Learning Basics -->
+            </div>
+          </li>
+          <li>
+            <i class="fa-brands"></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2020-2023</span>Sierra College, IGETC</h3>
+              <p>
+                Introduction to Linux/Unix <br>
+                Python for Many Uses<br>
+                IT Fundamentals<br>
+                Information and Communication Technologies<br>
+                Introduction to Critical Thinking<br>
+                <!-- Career Related Classes: 
+                IT 0090 IT Fundamentals, IT 0100 Information and Communication Technologies, PHIL 0004 Intro to Philosophy: Critical Thinking (summer 22), CSCI 0050 Introduction to Linux/Unix, IT 0075 Python for Many Uses -->
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-brands"></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2019-2023</span>HS in Greater Sacramento</h3>
+              <p>
+                AP Statistics<br>
+                AP Computer Science<br>
+                AP Calculus AB<br>
+                Cybersecurity<br>
+                Technology Leadership<br>
+                AP Physics C: Mechanics<br>
+                AP Physics: Electricty & Magnetism<br>
+                AP Microeconomics<br>
+              </p>
+              <!-- AP Physics 1
+              Career Related Classes: APCSP, APCSA, AP Physics 1, AP Physics 2, AP Physics C: Mechanics, AP Physics: Electricity & Magnetism, AP Calculus AB, AP Statistics, AP MicroEcon, Cybersecurity, IT Essentials, Technology Leadership -->
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="w3-white w3-container w3-padding-32" id="skills">
+    <div class="w3-content skills" style="max-width:1200px">
+      <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-large">Skills</h3>
+      <div class="w3-row">
+        <div class="w3-col s4 w3-white w3-center">
+          <h5><b>Languages</b></h5>
+          <p>Python</p>
+          <p>JavaScript</p>
+          <p>C & C++</p>
+          <p>SQL/ADQL</p>
+          <p>Java</p>
+          <p>Dart</p>
+          <p>RISC-V</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>TypeScript</p>
+        </div>
+        <div class="w3-col s4 w3-white w3-center">
+          <h5><b>Tools</b></h5>
+          <p>Bash</p>
+          <p>Git/Github/Gitlab</p>
+          <p>Firebase</p>
+          <p>Roboflow</p>
+          <p>MySQL</p>
+          <p>Slurm</p>
+          <p>OpenCV</p>
+          <p>YOLOv4-tiny</p>
+          <p>Matplotlib</p>
+          <p>NumPy</p>
+        </div>
+        <div class="w3-col s4 w3-white w3-center">
+          <h5><b>Frameworks</b></h5>
+          <p>React</p>
+          <p>React Native</p>
+          <p>Tailwind CSS</p>
+          <p>Node.js</p>
+          <p>3.js</p>
+          <p>Express.js</p>
+          <p>FastAPI</p>
+          <p>Flutter</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contact" class="w3-center w3-black w3-padding-32">
+    <div class="backstar"></div>
+    <p> Thanks for stopping by :o) </p>
+
+    <div class="footer-links">
+      <a href="https://github.com/sierrajanson" target="_blank"><button class="gitBtn w3-button w3-white w3-round-large">Github</button></a>
+      <a href="https://www.linkedin.com/in/sierra-j-06175b216/" target="_blank"><button class="linkBtn w3-button w3-white w3-round-large">Linkedin</button></a>
+    </div>
+    <a href="#home"><button class="w3-button w3-white w3-round-large"> ↑ </button></a>
+  </footer>
+
+</body>
+
+</html>
